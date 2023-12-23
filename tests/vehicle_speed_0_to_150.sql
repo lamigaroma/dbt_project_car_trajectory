@@ -1,0 +1,1 @@
+select speed from {{ref("vehicle_type_avg_speed")}} where speed < 0 or speed > 150

@@ -1,0 +1,1 @@
+select timestamp from {{ref("data_type_conversion")}} where timestamp not between '0:00' AND '23:59'

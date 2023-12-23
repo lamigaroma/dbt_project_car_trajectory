@@ -1,1 +1,0 @@
-select speed from {{ref("vehicle_type")}} where speed < 0 or speed > 150
