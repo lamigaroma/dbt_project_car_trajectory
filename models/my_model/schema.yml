@@ -1,0 +1,13 @@
+version: 2
+
+sources:
+  - name: DataEngineer
+    description: "A starter dbt model"
+    database: DataEngineer
+    schema: public
+    tables:
+      - name: vehicle_track
+        description: "THis is a table which store information about vehicle such as track_id, vehicle type"
+        
+      - name: trajectory_info
+        description: "This table store information about trajectory by individual vehicle and associate it with vehicle table on track_id"
