@@ -14,6 +14,10 @@ This project reads data from postgresql two tables
 ### About data
 Data used to build dbt model is an open source
 
+### Tasks in this repo
+-  Five (5) models developed from two data source and view were created in postgresql
+-  Three (3) Unit testing were performed on models designed in this project
+-  Screenshot of the dbt-DAG or Lineage Graph available screenshot folder
 
 ### Resources:
 - Learn more about dbt [in the docs](https://docs.getdbt.com/docs/introduction)
